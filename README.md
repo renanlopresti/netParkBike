@@ -28,13 +28,13 @@ Por último rodamos ```npm run start```.
 
 ## ⚙️ Executando os testes
 
-Com o projeto rodando localmente, voçê pode utilizar a documentação no [Postman](https://documenter.getpostman.com/view/18390198/UzBmLScA) para os serviços do projeto.
+Com o projeto rodando localmente, você pode utilizar a documentação no [Postman](https://documenter.getpostman.com/view/18390198/UzBmLScA) para os serviços do projeto.
 Para utilizar o Heroku apenas mude o link ```http://localhost:3003/``` para ```https://eureciclo.herokuapp.com/```. Nesse banco de dados existe algumas bicicletas e pode ser usado para modificar.
 
 
 ## 🛠️ Construído com
 
-Blibliotecas utilizadas:
+Bibliotecas utilizadas:
 * [TypeScripit](https://www.typescriptlang.org/docs/)
 * [express](https://expressjs.com/pt-br/) 
 * [knex](http://knexjs.org/)
