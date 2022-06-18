@@ -43,6 +43,9 @@ export class BicycleBusiness {
 
     async sellBike(id: number) {
         let bike = await this.bicycleDatabase.getBicycleById(id);
+        if(!bike){
+            throw new CustomError(402, "bicicleta não encontrada")
+        }
 
         let newQuant: number = bike.estoque - 1;
         
