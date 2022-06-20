@@ -24,6 +24,20 @@ DB_PASSWORD = Senha
 DB_NAME = Nome do banco
 ```
 
+no banco de dados crie a seguinte tabelas 
+
+```
+CREATE TABLE bicicleta (
+	id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    cor VARCHAR(255) NOT NULL,
+    marchas VARCHAR(255) NOT NULL,
+    marca VARCHAR(255) NOT NULL,
+    modelo VARCHAR(255) NOT NULL,
+    preco VARCHAR(255) NOT NULL,
+    estoque INT NOT NULL
+);
+```
+
 Por último rodamos ```npm run start```.
 
 ## ⚙️ Executando os testes
@@ -40,3 +54,4 @@ Bibliotecas utilizadas:
 * [knex](http://knexjs.org/)
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [mysql](https://www.npmjs.com/package/mysql)
+
