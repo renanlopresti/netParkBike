@@ -24,7 +24,7 @@ DB_PASSWORD = Senha
 DB_NAME = Nome do banco
 ```
 
-no banco de dados crie a seguinte tabelas 
+no banco de dados crie a seguinte tabela
 
 ```
 CREATE TABLE bicicleta (
